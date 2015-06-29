@@ -1,0 +1,16 @@
+ <div class="col-md-6 col-md-offset-3" style="margin-top: 10%">
+   <%= @user.email %>
+    <%= form_tag '/login', class: 'form-signin' do %>
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <%= label_tag :email, nil, class:'sr-only' %>
+        <%= email_field_tag :email, nil, class: 'form-control', placeholder: 'Email address', required: '', autofocus: '' %>
+
+        <%= label_tag :password, nil, class:'sr-only' %>
+        <%= password_field_tag :password, nil, class: 'form-control', placeholder: 'Password', required: ''%>
+       <div class="checkbox"></div>
+       <p>
+         <%= submit_tag 'Log in', class: 'btn btn-lg btn-primary btn-block' %>
+       </p>
+    <% end %>
+   <p>New user? <%= link_to 'Sign up now!',nil, href:'/signup' %></p>
+  </div>

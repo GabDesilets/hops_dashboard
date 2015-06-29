@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails HopsDash: development" uuid="90ed49a4-07e8-4e65-9abb-ac25ba3e8d3b">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>develhops.*</schema-pattern>
+      <default-schemas>develhops.*</default-schemas>
+    </data-source>
+    <data-source name="Rails HopsDash: test" uuid="70953222-01fb-4460-97a2-136f798b6f1c">
+      <user-name>root</user-name>
+      <schema-pattern>develhops.*</schema-pattern>
+      <default-schemas>develhops.*</default-schemas>
+    </data-source>
+    <data-source name="Rails HopsDash: production" uuid="a446e443-def2-40b5-a5ce-3b8217d68ae8">
+      <user-name>root</user-name>
+      <schema-pattern>develhops.*</schema-pattern>
+      <default-schemas>develhops.*</default-schemas>
+    </data-source>
+  </component>
+</project>
