@@ -1,4 +1,4 @@
-viking-ruby-converter [![Code Climate](https://codeclimate.com/github/bestdramana/viking-ruby-converter.png)](https://codeclimate.com/github/bestdramana/viking-ruby-converter)
+HopsDasboard
 =====================
 ### Version 0.0.1
 ### Ruby Version 2.1.5p273 (2014-11-13 revision 48405) [i386-mingw32]
